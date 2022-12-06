@@ -1,0 +1,128 @@
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    header {
+        height: 35vh;
+    }
+
+    .nava3 {
+        display: none;
+    }
+
+    .text-banner {
+        font-size: 18px;
+    }
+
+    .navbarrr {
+        justify-content: space-evenly;
+    }
+
+    .target {
+        margin-left: 35px;
+        font-size: 19px;
+    }
+
+    .personal-info {
+        padding: 0px 0px;
+        font-size: 19px;
+    }
+
+    .person-info {
+        margin-left: 0px;
+    }
+
+    .personal-info h1 {
+        margin-left: 30px;
+    }
+
+    .icon {
+        margin-left: 30px;
+    }
+
+    .grid {
+        display: table;
+        clear: both;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .tabs1 {
+        float: left;
+        width: 50%;
+    }
+
+    .hobby {
+        grid-template-rows: auto;
+
+    }
+
+    .language {
+        grid-template-rows: auto;
+    }
+
+    .skills {
+        grid-template-rows: auto;
+
+    }
+
+    .certificate-title {
+        margin-left: 30px;
+    }
+
+    .certificate {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        margin-left: 30px;
+    }
+
+    .certificate-1 {
+        display: block;
+        grid-template-columns: auto;
+
+    }
+
+    .certificate-2 {
+        display: block;
+        grid-template-columns: auto;
+    }
+
+    .certificate-1::after {
+
+        left: 388px;
+        height: 34%;
+    }
+
+    .certificate-3 {
+        display: block;
+        grid-template-columns: auto;
+    }
+
+    .project-title {
+        margin-left: 30px;
+    }
+
+    .project-1 img {
+        width: 230px;
+    }
+
+    .project-content {
+        margin-left: 30px;
+    }
+
+    .project-2 img {
+        width: 230px;
+    }
+
+    .project-3 img {
+        width: 230px;
+    }
+
+    table,
+    th,
+    td {
+        width: 230px;
+    }
+
+    .footer {
+        width: 100%;
+
+    }
+}
